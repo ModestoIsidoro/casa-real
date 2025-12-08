@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" href="favicon.png" />
+
+  <meta name="description" content="" />
+  <meta name="keywords" content="bootstrap, bootstrap5" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="fonts/icomoon/style.css" />
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css" />
+
+  <link rel="stylesheet" href="css/tiny-slider.css" />
+  <link rel="stylesheet" href="css/aos.css" />
+  <!-- <link rel="stylesheet" href="css/bootstrap.css" /> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/custom-additions.css">
+
+  <title>
+    Casa Real - Transformamos sonhos em realidade
+  </title>
+</head>
+
+<body>
+  <div class="site-mobile-menu site-navbar-target">
+    <div class="site-mobile-menu-header">
+      <div class="site-mobile-menu-close">
+        <span class="icofont-close js-menu-toggle"></span>
+      </div>
+    </div>
+    <div class="site-mobile-menu-body"></div>
+  </div>
+
+
+  <nav class="site-nav">
+    <div class="container">
+      <div class="menu-bg-wrap">
+        <div class="site-navigation">
+          <a href="index.html" class="logo m-0 float-start"><img src="images/logo.png" alt="Casa real Logo"></a>
+
+          <ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="projectsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Nossos Projetos
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="projectsDropdown">
+                <li><a class="dropdown-item" href="#">Vilareal</a></li>
+                <li><a class="dropdown-item" href="projeto-maraza.html">Maraza</a></li>
+              </ul>
+            </li>
+            <li class="">
+              <a href="properties.html">Properties</a>
+            </li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+
+          <a href="#"
+            class="burger light me-auto float-end mt-1 site-menu-toggle js-menu-toggle d-inline-block d-lg-none"
+            data-toggle="collapse" data-target="#main-navbar">
+            <span></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero hero-large">
+    <div class="hero-slide">
+      <div class="img overlay" data-image="images/hero_img_3.jpg"></div>
+      <div class="img overlay" data-image="images/condominio.jpg"></div>
+      <div class="img overlay" data-image="images/hero_img_1.jpg"></div>
+    </div>
+
+    <div class="container">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-lg-9 text-center">
+          <h1 class="heading display-4 text-white" data-aos="fade-up">Encontre a casa dos seus sonhos</h1>
+          <p class="lead text-white-75 mb-0 mt-3" data-aos="fade-up" data-aos-delay="100">Casas em condomínios seguros,
+            com qualidade e condições facilitadas. Conheça nossos empreendimentos.</p>
+          <div class="mt-4" data-aos="fade-up" data-aos-delay="200">
+            <span class="hero-scroll" aria-hidden="true"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="container">
+      <div class="row mb-5 align-items-center">
+        <div class="col-lg-6">
+          <h2 class="font-weight-bold heading">
+            Tipos de Casas
+          </h2>
+        </div>
+        <div class="col-lg-6 text-lg-end">
+          <p>
+            <a href="#" target="_blank" class="btn btn-primary text-white py-3 px-4">Ver todos os tipos</a>
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="property-slider-wrap">
+            <div class="property-slider">
+
+              <div class="property-item">
+                <a href="property-single.html" class="img">
+                  <img src="images/casa_t0.jpg" alt="Casa Básica" class="img-fluid" />
+                </a>
+
+                <div class="property-content">
+                  <div class="price mb-2"><span>Casa Básica</span></div>
+                  <div>
+                    <span class="d-block mb-2 text-black-50">Condomínio Vilareal, Maraza</span>
+                    <span class="d-block mb-3 desc">Casa térrea com acabamento moderno, ideal para primeiro
+                      imóvel.</span>
+
+                    <div class="specs d-flex mb-4 text-black-50">
+                      <span class="d-block d-flex align-items-center me-3">
+                        <span class="icon-bed me-2"></span>
+                        <span class="caption">1 quarto</span>
+                      </span>
+                      <span class="d-block d-flex align-items-center">
+                        <span class="icon-bath me-2"></span>
+                        <span class="caption">1 banheiro</span>
+                      </span>
+                    </div>
+
+                    <a href="property-single.html" class="btn btn-primary py-2 px-3">Ver detalhes</a>
+                  </div>
+                </div>
+              </div>
+              <!-- .item -->
+
+              <div class="property-item">
+                <a href="property-single.html" class="img">
+                  <img src="images/casa_t1.jpg" alt="Casa tipo 1" class="img-fluid" />
+                </a>
+
+                <div class="property-content">
+                  <div class="price mb-2"><span>Casa Tipo 1 - Geminada</span></div>
+                  <div>
+                    <span class="d-block mb-2 text-black-50">Condomínio Vilareal, Maraza</span>
+                    <span class="d-block mb-3 desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+
+                    <div class="specs d-flex mb-4 text-black-50">
+                      <span class="d-block d-flex align-items-center me-3">
+                        <span class="icon-bed me-2"></span>
+                        <span class="caption">1 quartos</span>
+                      </span>
+                      <span class="d-block d-flex align-items-center">
+                        <span class="icon-bath me-2"></span>
+                        <span class="caption">1 casa de banho</span>
+                      </span>
+                    </div>
+
+                    <a href="property-single.html" class="btn btn-primary py-2 px-3">Ver detalhes</a>
+                  </div>
+                </div>
+              </div>
+              <!-- .item -->
+
+              <div class="property-item">
+                <a href="property-single.html" class="img">
+                  <img src="images/casa_t2.jpg" alt="Image" class="img-fluid" />
+                </a>
+
+                <div class="property-content">
+                  <div class="price mb-2"><span>Casa Tipo 2 - Geminada</span></div>
+                  <div>
+                    <span class="d-block mb-2 text-black-50">Condomínio Vilareal, Maraza</span>
+                    <span class="d-block mb-3 desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+
+                    <div class="specs d-flex mb-4 text-black-50">
+                      <span class="d-block d-flex align-items-center me-3">
+                        <span class="icon-bed me-2"></span>
+                        <span class="caption">1 quartos</span>
+                      </span>
+                      <span class="d-block d-flex align-items-center">
+                        <span class="icon-bath me-2"></span>
+                        <span class="caption">1 casa de banho</span>
+                      </span>
+                    </div>
+
+                    <a href="property-single.html" class="btn btn-primary py-2 px-3">Ver detalhes</a>
+                  </div>
+                </div>
+              </div>
+              <!-- .item -->
+
+              <div class="property-item">
+                <a href="property-single.html" class="img">
+                  <img src="images/casa_t3.jpg" alt="Image" class="img-fluid" />
+                </a>
+
+                <div class="property-content">
+                  <div class="price mb-2"><span>Casa Tipo 3 - Duplex</span></div>
+                  <div>
+                    <span class="d-block mb-2 text-black-50">Condomínio Vilareal, Maraza</span>
+                    <span class="d-block mb-3 desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+
+                    <div class="specs d-flex mb-4 text-black-50">
+                      <span class="d-block d-flex align-items-center me-3">
+                        <span class="icon-bed me-2"></span>
+                        <span class="caption">1 quartos</span>
+                      </span>
+                      <span class="d-block d-flex align-items-center">
+                        <span class="icon-bath me-2"></span>
+                        <span class="caption">1 casa de banho</span>
+                      </span>
+                    </div>
+
+                    <a href="property-single.html" class="btn btn-primary py-2 px-3">Ver detalhes</a>
+                  </div>
+                </div>
+              </div>
+              <!-- .item -->
+
+              <div class="property-item">
+                <a href="property-single.html" class="img">
+                  <img src="images/apartamentos.jpg" alt="Image" class="img-fluid" />
+                </a>
+
+                <div class="property-content">
+                  <div class="price mb-2"><span>Apartamentos</span></div>
+                  <div>
+                    <span class="d-block mb-2 text-black-50">Condomínio Vilareal, Maraza</span>
+                    <span class="d-block mb-3 desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+
+                    <div class="specs d-flex mb-4 text-black-50">
+                      <span class="d-block d-flex align-items-center me-3">
+                        <span class="icon-bed me-2"></span>
+                        <span class="caption">1 quartos</span>
+                      </span>
+                      <span class="d-block d-flex align-items-center">
+                        <span class="icon-bath me-2"></span>
+                        <span class="caption">1 casa de banho</span>
+                      </span>
+                    </div>
+
+                    <a href="property-single.html" class="btn btn-primary py-2 px-3">Ver detalhes</a>
+                  </div>
+                </div>
+              </div>
+              <!-- .item -->
+            </div>
+
+            <div id="property-nav" class="controls" tabindex="0" aria-label="Carousel Navigation">
+              <span class="prev rounded-0" data-controls="prev" aria-controls="property" tabindex="-1">Prev</span>
+              <span class="next rounded-0" data-controls="next" aria-controls="property" tabindex="-1">Next</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="features-1">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+          <div class="box-feature">
+            <span class="flaticon-house"></span>
+            <h3 class="mb-3">Nossas Casas</h3>
+            <p>
+              Conheça as melhores opções de casas em condomínios fechados, com segurança e conforto para sua família.
+            </p>
+            <p><a href="#" class="learn-more">Saiba Mais</a></p>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="500">
+          <div class="box-feature">
+            <span class="flaticon-building"></span>
+            <h3 class="mb-3">Casas à Venda</h3>
+            <p>
+              Encontre casas disponíveis para compra em diversos condomínios da cidade.
+            </p>
+            <p><a href="#" class="learn-more">Saiba Mais</a></p>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+          <div class="box-feature">
+            <span class="flaticon-house-3"></span>
+            <h3 class="mb-3">Equipe Especializada</h3>
+            <p>
+              Nossa equipe está pronta para ajudar você a encontrar o imóvel ideal no condomínio dos seus sonhos.
+            </p>
+            <p><a href="#" class="learn-more">Saiba Mais</a></p>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="600">
+          <div class="box-feature">
+            <span class="flaticon-house-1"></span>
+            <h3 class="mb-3">Casas com Segurança</h3>
+            <p>
+              Imóveis em condomínios com portaria 24h, lazer e infraestrutura completa.
+            </p>
+            <p><a href="#" class="learn-more">Saiba Mais</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="section sec-testimonials">
+    <div class="container">
+      <div class="row mb-5 align-items-center">
+        <div class="col-md-6">
+          <div class="pe-md-4">
+            <h2 class="font-weight-bold heading mb-3">
+              Depoimentos de Clientes
+            </h2>
+            <p class="text-muted mb-4">
+              Veja o que clientes satisfeitos dizem sobre a Casa Real — experiências reais de quem encontrou o lar
+              ideal.
+            </p>
+
+            <div class="card shadow-sm rounded-4 mb-3">
+              <div class="card-body d-flex gap-3 align-items-start">
+
+                <div>
+                  <div class="d-flex align-items-center mb-1">
+                    <strong class="me-2">Maria Silva</strong>
+                    <small class="text-black-50">— Cliente satisfeita</small>
+                  </div>
+                  <div class="mb-1">
+                    <span class="text-warning">★ ★ ★ ★ ★</span>
+                  </div>
+                  <p class="mb-0 text-black-50 small">"Excelente atendimento e entrega dentro do prazo. A família adorou
+                    a segurança do condomínio."</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card shadow-sm rounded-4 mb-3">
+              <div class="card-body d-flex gap-3 align-items-start">
+
+                <div>
+                  <div class="d-flex align-items-center mb-1">
+                    <strong class="me-2">João Sousa</strong>
+                    <small class="text-black-50">— Comprador</small>
+                  </div>
+                  <div class="mb-1">
+                    <span class="text-warning">★ ★ ★ ★ ☆</span>
+                  </div>
+                  <p class="mb-0 text-black-50 small">"Ótima relação custo-benefício e suporte pós-venda muito
+                    atencioso."</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="d-flex gap-2 mb-3">
+              <button class="btn btn-primary"
+                onclick="document.getElementById('comments').classList.toggle('d-none');">Ver outros
+                depoimentos</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card text-white rounded-4 overflow-hidden shadow-lg">
+            <div class="position-relative video-preview-wrapper">
+              <img src="images/familia2.jpg" alt="Depoimento em vídeo" class="w-100 h-100 object-fit-cover">
+              <button type="button"
+                class="rounded-circle d-flex align-items-center justify-content-center video-modal-button p-3"
+                data-bs-toggle="modal" data-bs-target="#videoModal" aria-label="Reproduzir depoimento">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#fff" viewBox="0 0 16 16"
+                  aria-hidden="true">
+                  <path d="M10.804 8 5.5 11.196V4.804L10.804 8z" />
+                  <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4z" fill-opacity="0" />
+                </svg>
+                <span class="visually-hidden">Assistir depoimento em vídeo</span>
+              </button>
+
+              <div class="position-absolute bottom-0 start-0 p-3 video-preview-gradient">
+                <div class="d-flex justify-content-between align-items-end">
+                  <div>
+                    <h6 class="mb-0">Maria Silva</h6>
+                    <small class="text-white-50">Cliente — Compartilhando sua experiência</small>
+                  </div>
+                  <div class="text-warning">★ ★ ★ ★ ★</div>
+                </div>
+              </div>
+            </div>
+            <div class="card-body bg-white text-dark">
+              <p class="mb-0 small text-muted">Assista ao depoimento em vídeo para conhecer a experiência completa de
+                nossos clientes.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal de vídeo -->
+      <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content rounded-4 overflow-hidden">
+            <div class="modal-header border-0">
+              <h5 class="modal-title" id="videoModalLabel">Depoimento — Maria Silva</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+            </div>
+            <div class="modal-body p-0">
+              <video id="testimonialVideo" class="w-100" controls playsinline preload="metadata">
+                <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4">
+                Seu navegador não suporta o elemento de vídeo.
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="testimonial-slider-wrap d-none" id="comments">
+        <div class="row mb-2">
+
+          <div id="testimonial-nav">
+            <span class="prev rounded-0" data-controls="prev">Prev</span>
+
+            <span class="next rounded-0" data-controls="next">Next</span>
+          </div>
+
+        </div>
+        <div class="testimonial-slider">
+
+          <div class="item">
+            <div class="card shadow-sm rounded-4 mb-3">
+              <div class="card-body d-flex gap-3 align-items-start">
+
+                <div>
+                  <div class="d-flex align-items-center mb-1">
+                    <strong class="me-2">João Sousa</strong>
+                    <small class="text-black-50">— Comprador</small>
+                  </div>
+                  <div class="mb-1">
+                    <span class="text-warning">★ ★ ★ ★ ☆</span>
+                  </div>
+                  <p class="mb-0 text-black-50 small">"Ótima relação custo-benefício e suporte pós-venda muito
+                    atencioso."</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="card shadow-sm rounded-4 mb-3">
+              <div class="card-body d-flex gap-3 align-items-start">
+
+                <div>
+                  <div class="d-flex align-items-center mb-1">
+                    <strong class="me-2">João Sousa</strong>
+                    <small class="text-black-50">— Comprador</small>
+                  </div>
+                  <div class="mb-1">
+                    <span class="text-warning">★ ★ ★ ★ ☆</span>
+                  </div>
+                  <p class="mb-0 text-black-50 small">"Ótima relação custo-benefício e suporte pós-venda muito
+                    atencioso."</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="card shadow-sm rounded-4 mb-3">
+              <div class="card-body d-flex gap-3 align-items-start">
+
+                <div>
+                  <div class="d-flex align-items-center mb-1">
+                    <strong class="me-2">João Sousa</strong>
+                    <small class="text-black-50">— Comprador</small>
+                  </div>
+                  <div class="mb-1">
+                    <span class="text-warning">★ ★ ★ ★ ☆</span>
+                  </div>
+                  <p class="mb-0 text-black-50 small">"Ótima relação custo-benefício e suporte pós-venda muito
+                    atencioso."</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="card shadow-sm rounded-4 mb-3">
+              <div class="card-body d-flex gap-3 align-items-start">
+
+                <div>
+                  <div class="d-flex align-items-center mb-1">
+                    <strong class="me-2">João Sousa</strong>
+                    <small class="text-black-50">— Comprador</small>
+                  </div>
+                  <div class="mb-1">
+                    <span class="text-warning">★ ★ ★ ★ ☆</span>
+                  </div>
+                  <p class="mb-0 text-black-50 small">"Ótima relação custo-benefício e suporte pós-venda muito
+                    atencioso."</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="card shadow-sm rounded-4 mb-3">
+              <div class="card-body d-flex gap-3 align-items-start">
+
+                <div>
+                  <div class="d-flex align-items-center mb-1">
+                    <strong class="me-2">João Sousa</strong>
+                    <small class="text-black-50">— Comprador</small>
+                  </div>
+                  <div class="mb-1">
+                    <span class="text-warning">★ ★ ★ ★ ☆</span>
+                  </div>
+                  <p class="mb-0 text-black-50 small">"Ótima relação custo-benefício e suporte pós-venda muito
+                    atencioso."</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section section-4">
+    <div class="container">
+      <div class="row justify-content-center text-center mb-5">
+        <div class="col-lg-5">
+          <h2 class="font-weight-bold heading mb-4">
+            Encontre o lar ideal para sua família
+          </h2>
+          <p class="text-black-50">
+            Oferecemos casas em condomínios com excelente localização, segurança e conforto. Venha conhecer!
+          </p>
+        </div>
+      </div>
+      <div class="row justify-content-between mb-5">
+        <div class="col-lg-7 mb-5 mb-lg-0 order-lg-2">
+          <div class="img-about dots">
+            <img src="images/maraza.jpg" alt="Projecto Maraza" class="img-fluid" />
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="d-flex feature-h">
+            <span class="wrap-icon me-3">
+              <span class="icon-home2"></span>
+            </span>
+            <div class="feature-text">
+              <h3 class="heading">Porquê Escolher Nossas Casas?</h3>
+              <p class="text-black-50">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. At ex, tempore adipisci eaque commodi.
+              </p>
+            </div>
+          </div>
+
+          <div class="d-flex feature-h">
+            <span class="wrap-icon me-3">
+              <span class="icon-person"></span>
+            </span>
+            <div class="feature-text">
+              <h3 class="heading">Atendimento Personalizado</h3>
+              <p class="text-black-50">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. At ex, tempore adipisci eaque commodi.
+              </p>
+            </div>
+          </div>
+
+          <div class="d-flex feature-h">
+            <span class="wrap-icon me-3">
+              <span class="icon-security"></span>
+            </span>
+            <div class="feature-text">
+              <h3 class="heading">Imóveis Regularizados</h3>
+              <p class="text-black-50">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. At ex, tempore adipisci eaque commodi.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row section-counter mt-5 justify-content-center">
+        <div class="d-flex justify-content-center col-6 col-sm-6 col-md-6 col-lg-3" data-aos="fade-up"
+          data-aos-delay="300">
+          <div class="counter-wrap mb-5 mb-lg-0">
+            <span class="number"><span class="countup">3298</span></span>
+            <span class="caption text-black-50">Casas Vendidas</span>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center col-6 col-sm-6 col-md-6 col-lg-3" data-aos="fade-up"
+          data-aos-delay="400">
+          <div class="counter-wrap mb-5 mb-lg-0">
+            <span class="number"><span class="countup">2181</span></span>
+            <span class="caption text-black-50">Casas Disponíveis</span>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center col-6 col-sm-6 col-md-6 col-lg-3" data-aos="fade-up"
+          data-aos-delay="500">
+          <div class="counter-wrap mb-5 mb-lg-0">
+            <span class="number"><span class="countup">9316</span></span>
+            <span class="caption text-black-50">Total de Imóveis</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="container">
+      <div class="row justify-content-center text-center mb-5">
+        <div class="col-lg-5">
+          <h2 class="font-weight-bold heading mb-4">
+            Nossas Notícias
+          </h2>
+          <p class="text-black-50">
+            This is a wider card with supporting text below as a natural lead-in to additional content.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="row flex-md-row g-0 border mb-4 shadow-sm h-md-250">
+            <div class="col p-4 d-flex flex-column position-static"> <strong
+                class="d-inline-block mb-2 text-primary-emphasis">Visita</strong>
+              <h3 class="mb-0">Visita especial nas obras do projecto mazara</h3>
+              <p class="mb-1 text-body-secondary">Nov 12</p>
+              <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to
+                additional content.</p>
+              <p class="mt-2">
+                <a href="#" class="learn-more">Ler mais...</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="row g-0 border flex-md-row mb-4 shadow-sm h-md-250">
+            <div class="col p-4 d-flex flex-column position-static"> <strong
+                class="d-inline-block mb-2 text-primary-emphasis">Inovação</strong>
+              <h3 class="mb-0">A casa real Inova com Construção de Casas Ecológicas</h3>
+              <p class="mb-1 text-body-secondary">Nov 12</p>
+              <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to
+                additional content.</p>
+              <p class="mt-2">
+                <a href="#" class="learn-more">Ler mais...</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-1">
+        <p>
+          <a href="#" class="learn-more">Ver todas noticias</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <section class="section section-4 py-5" id="faq">
+    <div class="container">
+      <div class="row align-items-center mb-4">
+        <div class="col-lg-7">
+          <h2 class="font-weight-bold heading" data-aos="fade-up">
+            Perguntas Frequentes
+          </h2>
+          <p class="text-muted mb-0" data-aos="fade-up" data-aos-delay="80">
+            Respostas rápidas às dúvidas mais comuns sobre compra, financiamento, entrega e assistência.
+          </p>
+        </div>
+        <div class="col-lg-5 text-lg-end" data-aos="fade-up" data-aos-delay="120">
+          <a href="contact.html" class="btn btn-outline btn-sm">Ainda não encontrou? Contacte-nos</a>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="card shadow-sm rounded-4 overflow-hidden" data-aos="fade-up" data-aos-delay="200">
+            <div class="row g-0">
+              <div class="col-md-7 border-end p-4">
+                <h5 class="mb-3">Dúvidas mais procuradas</h5>
+
+                <div class="accordion" id="faqAccordion" role="tablist" aria-label="FAQ">
+
+                  <div class="accordion-item mb-2">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class="accordion-button collapsed rounded-3" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        <span class="badge rounded-circle me-3 faq-badge">1</span>
+                        Como posso agendar uma visita ao condomínio?
+                      </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                      data-bs-parent="#faqAccordion">
+                      <div class="accordion-body text-muted">
+                        Pode agendar por telefone, WhatsApp ou preenchendo o formulário na página de contacto.
+                        Um consultor confirmará data e hora e poderá encaminhar orientações sobre a visita.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item mb-2">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button class="accordion-button collapsed rounded-3" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <span class="badge rounded-circle me-3 faq-badge">2</span>
+                        Quais são as opções de pagamento e financiamento?
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                      data-bs-parent="#faqAccordion">
+                      <div class="accordion-body text-muted">
+                        Trabalhamos com pagamento à vista, planos próprios e parcerias com bancos. Agende uma simulação
+                        personalizada com a nossa equipa comercial.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item mb-2">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button class="accordion-button collapsed rounded-3" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <span class="badge rounded-circle me-3 faq-badge">3</span>
+                        Os imóveis são entregues regularizados e com documentação?
+                      </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                      data-bs-parent="#faqAccordion">
+                      <div class="accordion-body text-muted">
+                        Sim. Entregamos imóveis com a documentação exigida. Para detalhes sobre prazos e documentos,
+                        consulte a nossa equipa jurídica.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item mb-2">
+                    <h2 class="accordion-header" id="headingFour">
+                      <button class="accordion-button collapsed rounded-3" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        <span class="badge rounded-circle me-3 faq-badge">4</span>
+                        Existe garantia ou assistência pós-venda?
+                      </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                      data-bs-parent="#faqAccordion">
+                      <div class="accordion-body text-muted">
+                        Oferecemos garantia e assistência técnica conforme contrato. Abra uma solicitação pelo nosso
+                        contacto para suporte rápido.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item mb-0">
+                    <h2 class="accordion-header" id="headingFive">
+                      <button class="accordion-button collapsed rounded-3" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        <span class="badge rounded-circle me-3 faq-badge">5</span>
+                        Posso personalizar acabamentos ou escolher plantas?
+                      </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                      data-bs-parent="#faqAccordion">
+                      <div class="accordion-body text-muted">
+                        Depende do estágio do projecto. Consulte o seu consultor para verificar opções de
+                        personalização,
+                        prazos e eventuais custos adicionais.
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="col-md-5 p-4">
+                <div class="h-100 d-flex flex-column justify-content-between">
+                  <div>
+                    <h6 class="mb-2">Precisa de ajuda personalizada?</h6>
+                    <p class="text-muted small mb-3">
+                      Fale com um consultor para esclarecer dúvidas específicas sobre plantas, financiamento ou
+                      disponibilidade.
+                    </p>
+
+                    <ul class="list-unstyled mb-3">
+                      <li class="mb-2"><strong>Telefone:</strong> <a href="tel:+258850400806"
+                          class="text-decoration-none text-black">(+258) 85 040 0806</a></li>
+                      <li class="mb-2"><strong>Email:</strong> <a href="mailto:info@casareal.co.mz"
+                          class="text-decoration-none text-black">info@casareal.co.mz</a></li>
+                      <li><strong>Local:</strong> Chaimite, Beira</li>
+                    </ul>
+                  </div>
+
+                  <div class="text-center">
+                    <a href="contact.html" class="btn btn-primary w-100">Falar com um consultor</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section py-5 bg-white" id="partners">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col-12 text-center">
+          <h2 class="font-weight-bold heading">Nossos Parceiros</h2>
+          <p class="text-muted">Empresas e marcas que confiam no nosso trabalho.</p>
+        </div>
+      </div>
+
+      <div id="partnersCarousel" class="carousel slide" data-bs-ride="carousel" aria-label="Carrossel de parceiros">
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <div class="d-flex justify-content-center align-items-center flex-wrap gap-4 py-3">
+              <img src="https://placehold.co/160x80?text=Parceiro+1" class="img-fluid partner-logo" alt="Parceiro 1">
+              <img src="https://placehold.co/160x80?text=Parceiro+2" class="img-fluid partner-logo" alt="Parceiro 2">
+              <img src="https://placehold.co/160x80?text=Parceiro+3" class="img-fluid partner-logo" alt="Parceiro 3">
+              <img src="https://placehold.co/160x80?text=Parceiro+4" class="img-fluid partner-logo" alt="Parceiro 4">
+              <img src="https://placehold.co/160x80?text=Parceiro+5" class="img-fluid partner-logo" alt="Parceiro 5">
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center align-items-center flex-wrap gap-4 py-3">
+              <img src="https://placehold.co/160x80?text=Parceiro+6" class="img-fluid partner-logo" alt="Parceiro 6">
+              <img src="https://placehold.co/160x80?text=Parceiro+7" class="img-fluid partner-logo" alt="Parceiro 7">
+              <img src="https://placehold.co/160x80?text=Parceiro+8" class="img-fluid partner-logo" alt="Parceiro 8">
+              <img src="https://placehold.co/160x80?text=Parceiro+9" class="img-fluid partner-logo" alt="Parceiro 9">
+              <img src="https://placehold.co/160x80?text=Parceiro+10" class="img-fluid partner-logo" alt="Parceiro 10">
+            </div>
+          </div>
+
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#partnersCarousel" data-bs-slide="prev"
+          aria-label="Anterior">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#partnersCarousel" data-bs-slide="next"
+          aria-label="Próximo">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <div class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="widget">
+            <h3>Sobre Nós</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, iure. Dolorem magnam corporis iure
+              ex ipsa optio autem labore officiis incidunt? Eveniet earum perferendis saepe neque blanditiis consequatur
+              id nam.</p>
+          </div>
+          <!-- /.widget -->
+        </div>
+        <div class="col-lg-4">
+          <div class="widget">
+            <h3>Contact</h3>
+            <address>Chaimite, Beira, Moçambique</address>
+            <ul class="list-unstyled links">
+              <li><a href="tel://11234567890">(+258) 85 040 0806</a></li>
+              <li><a href="tel://11234567890">(+258) 86 439 3938</a></li>
+              <li>
+                <a href="mailto:info@mydomain.com">info@casareal.co.mz</a>
+              </li>
+            </ul>
+          </div>
+          <!-- /.widget -->
+        </div>
+        <!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <div class="widget">
+            <h3>Sources</h3>
+            <ul class="list-unstyled float-start links">
+              <li><a href="#">Sobre a empresa</a></li>
+              <li><a href="#">Condomínios</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contactos</a></li>
+            </ul>
+          </div>
+          <!-- /.widget -->
+        </div>
+        <!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <div class="widget">
+            <ul class="list-unstyled social">
+              <li>
+                <a href="#" title="Siga-nos no Instagram" aria-label="Instagram"><span
+                    class="icon-instagram"></span></a>
+              </li>
+              <!-- <li>
+                <a href="#"><span class="icon-tiktok"></span></a>
+              </li> -->
+              <li>
+                <a href="#" title="Siga-nos no Facebook" aria-label="Facebook"><span class="icon-facebook"></span></a>
+              </li>
+              <li>
+                <a href="#" title="Inscreva-se no nosso canal do YouTube" aria-label="YouTube"><span
+                    class="icon-youtube"></span></a>
+              </li>
+            </ul>
+          </div>
+          <!-- /.widget -->
+        </div>
+        <!-- /.col-lg-4 -->
+      </div>
+      <!-- /.row -->
+
+      <div class="row mt-3">
+        <div class="col-12 text-center">
+          <p class="mb-0">
+            &copy;
+            <script>
+              document.write(new Date().getFullYear());
+            </script>. Casa Real. Todos os direitos reservados.
+          </p>
+          <p class="mb-0">
+            Dsenvolvido por <a href="">Beira Digital</a>
+          </p>
+
+        </div>
+      </div>
+    </div>
+    <!-- /.container -->
+  </div>
+  <!-- /.site-footer -->
+
+  <!-- Preloader -->
+  <div id="overlayer"></div>
+  <div class="loader">
+    <div class="spinner-border" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+  </div>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/tiny-slider.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/navbar.js"></script>
+  <script src="js/counter.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+
+</html>
