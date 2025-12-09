@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-  <link rel="shortcut icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+  <link rel="shortcut icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
   <link rel="manifest" href="images/favicon/site.webmanifest">
 
   <meta name="description" content="" />
@@ -50,7 +50,7 @@
           <a href="index.html" class="logo m-0 float-start"><img src="images/logo.png" alt="Casa real Logo"></a>
 
           <ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end">
-            <li class="active"><a href="index.html">Home</a></li>
+            <li class="active"><a href="index.html">Início</a></li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="projectsDropdown" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
@@ -62,10 +62,10 @@
               </ul>
             </li>
             <li class="">
-              <a href="properties.html">Properties</a>
+              <a href="properties.html">Tipo de casa</a>
             </li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="about.html">Sobre Nós</a></li>
+            <li><a href="contact.html">Contatos</a></li>
           </ul>
 
           <a href="#"
@@ -101,16 +101,16 @@
 
   <div class="section">
     <div class="container">
-      <div class="row mb-5 align-items-center">
-        <div class="col-lg-6">
+      <div class="row mb-4 mb-md-5 align-items-center">
+        <div class="col-12 col-md-6 mb-3 mb-md-0" data-aos="fade-up">
           <h2 class="font-weight-bold heading">
             Tipos de Casas
           </h2>
+          <p class="text-muted mt-2">Escolha entre nossas opções de casas modernas e confortáveis.</p>
         </div>
-        <div class="col-lg-6 text-lg-end">
-          <p>
-            <a href="#" target="_blank" class="btn btn-primary text-white py-3 px-4">Ver todos os tipos</a>
-          </p>
+        <div class="col-12 col-md-6 text-md-end">
+          <a href="#" target="_blank" class="btn btn-primary text-white py-2 py-md-3 px-3 px-md-4" data-aos="fade-up"
+            data-aos-delay="100">Ver todos os tipos</a>
         </div>
       </div>
       <div class="row">
@@ -118,143 +118,165 @@
           <div class="property-slider-wrap">
             <div class="property-slider">
 
-              <div class="property-item">
-                <a href="property-single.html" class="img">
+              <div class="property-item" data-aos="zoom-in" data-aos-delay="0">
+                <a href="property-single.html" class="img position-relative d-block overflow-hidden">
                   <img src="images/casa_t0.jpg" alt="Casa Básica" class="img-fluid" />
+                  <span class="badge bg-success position-absolute top-0 start-0 m-3 rounded-pill">Casa Básica</span>
                 </a>
 
-                <div class="property-content">
-                  <div class="price mb-2"><span>Casa Básica</span></div>
-                  <div>
-                    <span class="d-block mb-2 text-black-50">Condomínio Vilareal, Maraza</span>
-                    <span class="d-block mb-3 desc">Casa térrea com acabamento moderno, ideal para primeiro
-                      imóvel.</span>
-
-                    <div class="specs d-flex mb-4 text-black-50">
-                      <span class="d-block d-flex align-items-center me-3">
-                        <span class="icon-bed me-2"></span>
-                        <span class="caption">1 quarto</span>
-                      </span>
-                      <span class="d-block d-flex align-items-center">
-                        <span class="icon-bath me-2"></span>
-                        <span class="caption">1 banheiro</span>
-                      </span>
+                <div class="property-content p-3 p-md-4">
+                  <div class="d-flex justify-content-between align-items-start mb-2">
+                    <div>
+                      <h3 class="h6 fw-bold mb-1">Casa Básica</h3>
+                      <span class="badge bg-light text-dark rounded-pill fs-7">Terreno 150m²</span>
                     </div>
-
-                    <a href="property-single.html" class="btn btn-primary py-2 px-3">Ver detalhes</a>
                   </div>
+                  <span class="d-block mb-2 text-black-50 small">Condomínio Vilareal, Maraza</span>
+                  <p class="desc mb-3 small text-muted">Casa térrea com acabamento moderno, ideal para primeiro imóvel.
+                  </p>
+
+                  <div class="specs d-flex gap-3 mb-4 text-black-50">
+                    <span class="d-flex align-items-center small">
+                      <span class="icon-bed me-2"></span>
+                      <span class="caption">1 quarto</span>
+                    </span>
+                    <span class="d-flex align-items-center small">
+                      <span class="icon-bath me-2"></span>
+                      <span class="caption">1 banheiro</span>
+                    </span>
+                  </div>
+
+                  <a href="property-single.html" class="btn btn-primary btn-sm w-100">Ver detalhes</a>
                 </div>
               </div>
               <!-- .item -->
 
-              <div class="property-item">
-                <a href="property-single.html" class="img">
-                  <img src="images/casa_t1.jpg" alt="Casa tipo 1" class="img-fluid" />
+              <div class="property-item" data-aos="zoom-in" data-aos-delay="100">
+                <a href="property-single.html" class="img position-relative d-block overflow-hidden">
+                  <img src="images/casa_t1.jpg" alt="Casa Tipo 1" class="img-fluid" />
+                  <span class="badge bg-info position-absolute top-0 start-0 m-3 rounded-pill">Geminada</span>
                 </a>
 
-                <div class="property-content">
-                  <div class="price mb-2"><span>Casa Tipo 1 - Geminada</span></div>
-                  <div>
-                    <span class="d-block mb-2 text-black-50">Condomínio Vilareal, Maraza</span>
-                    <span class="d-block mb-3 desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
-
-                    <div class="specs d-flex mb-4 text-black-50">
-                      <span class="d-block d-flex align-items-center me-3">
-                        <span class="icon-bed me-2"></span>
-                        <span class="caption">1 quartos</span>
-                      </span>
-                      <span class="d-block d-flex align-items-center">
-                        <span class="icon-bath me-2"></span>
-                        <span class="caption">1 casa de banho</span>
-                      </span>
+                <div class="property-content p-3 p-md-4">
+                  <div class="d-flex justify-content-between align-items-start mb-2">
+                    <div>
+                      <h3 class="h6 fw-bold mb-1">Casa Tipo 1</h3>
+                      <span class="badge bg-light text-dark rounded-pill fs-7">Terreno 180m²</span>
                     </div>
-
-                    <a href="property-single.html" class="btn btn-primary py-2 px-3">Ver detalhes</a>
                   </div>
+                  <span class="d-block mb-2 text-black-50 small">Condomínio Vilareal, Maraza</span>
+                  <p class="desc mb-3 small text-muted">Casa geminada com 2 quartos, solução ideal para famílias.</p>
+
+                  <div class="specs d-flex gap-3 mb-4 text-black-50">
+                    <span class="d-flex align-items-center small">
+                      <span class="icon-bed me-2"></span>
+                      <span class="caption">2 quartos</span>
+                    </span>
+                    <span class="d-flex align-items-center small">
+                      <span class="icon-bath me-2"></span>
+                      <span class="caption">2 banheiros</span>
+                    </span>
+                  </div>
+
+                  <a href="property-single.html" class="btn btn-primary btn-sm w-100">Ver detalhes</a>
                 </div>
               </div>
               <!-- .item -->
 
-              <div class="property-item">
-                <a href="property-single.html" class="img">
-                  <img src="images/casa_t2.jpg" alt="Image" class="img-fluid" />
+              <div class="property-item" data-aos="zoom-in" data-aos-delay="200">
+                <a href="property-single.html" class="img position-relative d-block overflow-hidden">
+                  <img src="images/casa_t2.jpg" alt="Casa Tipo 2" class="img-fluid" />
+                  <span class="badge bg-info position-absolute top-0 start-0 m-3 rounded-pill">Geminada</span>
                 </a>
 
-                <div class="property-content">
-                  <div class="price mb-2"><span>Casa Tipo 2 - Geminada</span></div>
-                  <div>
-                    <span class="d-block mb-2 text-black-50">Condomínio Vilareal, Maraza</span>
-                    <span class="d-block mb-3 desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
-
-                    <div class="specs d-flex mb-4 text-black-50">
-                      <span class="d-block d-flex align-items-center me-3">
-                        <span class="icon-bed me-2"></span>
-                        <span class="caption">1 quartos</span>
-                      </span>
-                      <span class="d-block d-flex align-items-center">
-                        <span class="icon-bath me-2"></span>
-                        <span class="caption">1 casa de banho</span>
-                      </span>
+                <div class="property-content p-3 p-md-4">
+                  <div class="d-flex justify-content-between align-items-start mb-2">
+                    <div>
+                      <h3 class="h6 fw-bold mb-1">Casa Tipo 2</h3>
+                      <span class="badge bg-light text-dark rounded-pill fs-7">Terreno 200m²</span>
                     </div>
-
-                    <a href="property-single.html" class="btn btn-primary py-2 px-3">Ver detalhes</a>
                   </div>
+                  <span class="d-block mb-2 text-black-50 small">Condomínio Vilareal, Maraza</span>
+                  <p class="desc mb-3 small text-muted">Casa espaçosa com acabamento premium e varanda integrada.</p>
+
+                  <div class="specs d-flex gap-3 mb-4 text-black-50">
+                    <span class="d-flex align-items-center small">
+                      <span class="icon-bed me-2"></span>
+                      <span class="caption">2 quartos</span>
+                    </span>
+                    <span class="d-flex align-items-center small">
+                      <span class="icon-bath me-2"></span>
+                      <span class="caption">2 banheiros</span>
+                    </span>
+                  </div>
+
+                  <a href="property-single.html" class="btn btn-primary btn-sm w-100">Ver detalhes</a>
                 </div>
               </div>
               <!-- .item -->
 
-              <div class="property-item">
-                <a href="property-single.html" class="img">
-                  <img src="images/casa_t3.jpg" alt="Image" class="img-fluid" />
+              <div class="property-item" data-aos="zoom-in" data-aos-delay="300">
+                <a href="property-single.html" class="img position-relative d-block overflow-hidden">
+                  <img src="images/casa_t3.jpg" alt="Casa Tipo 3" class="img-fluid" />
+                  <span
+                    class="badge bg-warning position-absolute top-0 start-0 m-3 rounded-pill text-dark">Duplex</span>
                 </a>
 
-                <div class="property-content">
-                  <div class="price mb-2"><span>Casa Tipo 3 - Duplex</span></div>
-                  <div>
-                    <span class="d-block mb-2 text-black-50">Condomínio Vilareal, Maraza</span>
-                    <span class="d-block mb-3 desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
-
-                    <div class="specs d-flex mb-4 text-black-50">
-                      <span class="d-block d-flex align-items-center me-3">
-                        <span class="icon-bed me-2"></span>
-                        <span class="caption">1 quartos</span>
-                      </span>
-                      <span class="d-block d-flex align-items-center">
-                        <span class="icon-bath me-2"></span>
-                        <span class="caption">1 casa de banho</span>
-                      </span>
+                <div class="property-content p-3 p-md-4">
+                  <div class="d-flex justify-content-between align-items-start mb-2">
+                    <div>
+                      <h3 class="h6 fw-bold mb-1">Casa Tipo 3</h3>
+                      <span class="badge bg-light text-dark rounded-pill fs-7">Terreno 250m²</span>
                     </div>
-
-                    <a href="property-single.html" class="btn btn-primary py-2 px-3">Ver detalhes</a>
                   </div>
+                  <span class="d-block mb-2 text-black-50 small">Condomínio Vilareal, Maraza</span>
+                  <p class="desc mb-3 small text-muted">Casa duplex moderna com 3 quartos e áreas de lazer.</p>
+
+                  <div class="specs d-flex gap-3 mb-4 text-black-50">
+                    <span class="d-flex align-items-center small">
+                      <span class="icon-bed me-2"></span>
+                      <span class="caption">3 quartos</span>
+                    </span>
+                    <span class="d-flex align-items-center small">
+                      <span class="icon-bath me-2"></span>
+                      <span class="caption">2 banheiros</span>
+                    </span>
+                  </div>
+
+                  <a href="property-single.html" class="btn btn-primary btn-sm w-100">Ver detalhes</a>
                 </div>
               </div>
               <!-- .item -->
 
-              <div class="property-item">
-                <a href="property-single.html" class="img">
-                  <img src="images/apartamentos.jpg" alt="Image" class="img-fluid" />
+              <div class="property-item" data-aos="zoom-in" data-aos-delay="400">
+                <a href="property-single.html" class="img position-relative d-block overflow-hidden">
+                  <img src="images/apartamentos.jpg" alt="Apartamentos" class="img-fluid" />
+                  <span class="badge bg-secondary position-absolute top-0 start-0 m-3 rounded-pill">Apartamentos</span>
                 </a>
 
-                <div class="property-content">
-                  <div class="price mb-2"><span>Apartamentos</span></div>
-                  <div>
-                    <span class="d-block mb-2 text-black-50">Condomínio Vilareal, Maraza</span>
-                    <span class="d-block mb-3 desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
-
-                    <div class="specs d-flex mb-4 text-black-50">
-                      <span class="d-block d-flex align-items-center me-3">
-                        <span class="icon-bed me-2"></span>
-                        <span class="caption">1 quartos</span>
-                      </span>
-                      <span class="d-block d-flex align-items-center">
-                        <span class="icon-bath me-2"></span>
-                        <span class="caption">1 casa de banho</span>
-                      </span>
+                <div class="property-content p-3 p-md-4">
+                  <div class="d-flex justify-content-between align-items-start mb-2">
+                    <div>
+                      <h3 class="h6 fw-bold mb-1">Apartamentos</h3>
+                      <span class="badge bg-light text-dark rounded-pill fs-7">60-90m²</span>
                     </div>
-
-                    <a href="property-single.html" class="btn btn-primary py-2 px-3">Ver detalhes</a>
                   </div>
+                  <span class="d-block mb-2 text-black-50 small">Condomínio Vilareal, Maraza</span>
+                  <p class="desc mb-3 small text-muted">Apartamentos modernos com acabamento de qualidade e segurança.
+                  </p>
+
+                  <div class="specs d-flex gap-3 mb-4 text-black-50">
+                    <span class="d-flex align-items-center small">
+                      <span class="icon-bed me-2"></span>
+                      <span class="caption">1-2 quartos</span>
+                    </span>
+                    <span class="d-flex align-items-center small">
+                      <span class="icon-bath me-2"></span>
+                      <span class="caption">1-2 banhos</span>
+                    </span>
+                  </div>
+
+                  <a href="property-single.html" class="btn btn-primary btn-sm w-100">Ver detalhes</a>
                 </div>
               </div>
               <!-- .item -->
